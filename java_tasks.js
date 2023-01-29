@@ -12,3 +12,12 @@ function grow(x){
     return x.reduce((a, b)=> a * b,1);
   }
   console.log(grow([4,6,7,8]));
+
+  let a = 5 + 2 + 3;
+document.getElementById("demo").innerHTML = a;
+
+let b = "John" + " " + "Doe";
+document.getElementById("demo").innerHTML = b;
+
+let c = "Volvo" + 16 + 4;
+document.getElementById("demo").innerHTML = c;
