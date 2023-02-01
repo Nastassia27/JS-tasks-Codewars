@@ -51,11 +51,18 @@ for (let i = 1; i <= number; i++) {
     nextTerm = n1 + n2;
     n1 = n2;
     n2 = nextTerm;
-}*/
+}
 
 function twiceAsOld(dadYearsOld, sonYearsOld) {
     let twiceOld = sonYearsOld*2;
     if(dadYearsOld/sonYearsOld>=2){
       return dadYearsOld-twiceOld;
     } return twiceOld-dadYearsOld;
-  }
+  }*/
+
+ let s = "string";
+ let oddItion = s.length - parseInt(s.length/2);
+ if(s.length%2===0){
+    console.log(s[oddItion-1]+s[oddItion]);
+   } console.log(s[oddItion-1]);
+
