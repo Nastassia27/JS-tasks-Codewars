@@ -37,7 +37,7 @@ a = b;
 b = temp;
 
 console.log(`The value of a after swapping: ${a}`);
-console.log(`The value of b after swapping: ${b}`); */
+console.log(`The value of b after swapping: ${b}`); 
 // program to generate fibonacci series up to n terms
 
 // take input from the user
@@ -51,4 +51,11 @@ for (let i = 1; i <= number; i++) {
     nextTerm = n1 + n2;
     n1 = n2;
     n2 = nextTerm;
-}
+}*/
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+    let twiceOld = sonYearsOld*2;
+    if(dadYearsOld/sonYearsOld>=2){
+      return dadYearsOld-twiceOld;
+    } return twiceOld-dadYearsOld;
+  }
