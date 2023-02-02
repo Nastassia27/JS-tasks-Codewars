@@ -58,11 +58,29 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     if(dadYearsOld/sonYearsOld>=2){
       return dadYearsOld-twiceOld;
     } return twiceOld-dadYearsOld;
-  }*/
+  }
 
  let s = "string";
  let oddItion = s.length - parseInt(s.length/2);
  if(s.length%2===0){
     console.log(s[oddItion-1]+s[oddItion]);
-   } console.log(s[oddItion-1]);
+   } console.log(s[oddItion-1]);*/
+
+   // Exes and ohs
+   function XO(str) {
+    str = str.toLowerCase();
+    let numX = 0;
+    let numO = 0;
+      for(let i =0; i<str.length; i++){
+        if(str[i]==='x'){
+          numX = numX+1; 
+        } else if (str[i]==="o"){
+          numO = numO +1;
+        }
+      }
+    if(numX === numO){
+      return true;
+    }
+    return false;
+  }
 
