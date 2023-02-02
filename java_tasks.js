@@ -64,7 +64,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
  let oddItion = s.length - parseInt(s.length/2);
  if(s.length%2===0){
     console.log(s[oddItion-1]+s[oddItion]);
-   } console.log(s[oddItion-1]);*/
+   } console.log(s[oddItion-1]);
 
    // Exes and ohs
    function XO(str) {
@@ -82,5 +82,12 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
       return true;
     }
     return false;
+  }*/
+  let arr = [0,0,1,0];
+  let string = "";
+  for(let i = 0; i< arr.length; i++){
+      string = string + arr[i];
   }
+  
+  console.log(parseInt(string,2));
 
